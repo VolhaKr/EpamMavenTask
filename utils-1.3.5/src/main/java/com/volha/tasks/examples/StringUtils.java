@@ -12,7 +12,7 @@ public class StringUtils {
            }
        }
        catch (NumberFormatException e){
-
+           return false;
        }
        return false;
    }
